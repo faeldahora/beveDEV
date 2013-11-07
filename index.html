@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Seu nome aqui</title>
+</head>
+<body>
+
+	<h1>Instruções</h1>
+	<p>
+	Essa página é um "questionário" HTML onde você deverá responder via hardcode. Por
+	exemplo, ali no campo de email, eu adicionaria no código HTML o atributo 
+	value="harlley arroba gmail ponto com". E no campo idade, adicionaria o atributo
+	value="33". Se for uma resposta de checkbox, adicionaria o atributo checked.
+	Bem, se você sabe HTML, entendeu a ideia.
+	</p>
+
+	<p>
+		A primeira seção <strong>"Sobre você"</strong> é tranquilo, basta responder todas as questões. 
+		Já na segunda seção, do <strong>"Mini-teste"</strong>, você primeiro deve colocar uma nota de 0
+		a 10 sobre o seu conhecimento em cada um dos assuntos. Depois deve marcar
+		os checkboxes. A ideia é que você marque apenas as opções que tem algum
+		relacionamento com a tecnologia. Por exemplo, se a tecnologia fosse "Banana", 
+		você marcaria "fruta" e "casca", e deixaria desmarcado a opção "sementes".
+	</p>
+
+	<p>Depois de responder o questionário, é hora deixá-lo bonitão. Já que você
+		conhece Frontend, vai ser tranquilo. Basta criar um arquivo CSS, linkar aqui 
+		no HTML e estilizar da forma que preferir, use o seu bom gosto. CSS3 é mais que 
+		bem vindo. Se precisar mudar alguma estrutura do HTML, deixar mais semântico, etc, 
+		tudo bem, mantenha só os seus campos com as respostas, para que eu consiga ler 
+		depois que estiver publicado. Pode adicionar Javascript também, tudo que fizer 
+		para demonstrar os seus conhecimentos, vai te ajudar.
+	</p>
+
+	<p>
+		O último passo é o envio do seu questionário/teste para eu avaliar. Basta
+		publicar os arquivo em algum servidor, e informar a URL aqui no formulário.
+		É importante também que me envie um Pull Request, para que eu veja o seu código.
+		Aqui no Beved, sabemos o andamento do trabalho de cada um através dos commits. 
+		Portanto, capriche, pois o seu histórico de commits será avaliado.
+	<p>
+
+
+	<fieldset>
+    
+    <legend>Sobre você</legend>
+
+		<h1>Email</h1>
+		<input type="text" style="width:700px">
+
+		<h1>Idade</h1>
+		<input type="text" style="width:700px">
+
+		<h1>Escolha o valor da sua bolsa estágio</h1>
+		<input type="radio" name="bolsa"><label>R$ 300,00</label>
+		<input type="radio" name="bolsa"><label>R$ 600,00</label>
+		<input type="radio" name="bolsa"><label>R$ 1.200,00</label>
+		<input type="radio" name="bolsa"><label>R$ 3.000,00</label>
+		<input type="radio" name="bolsa"><label>Na Beved? Trabalharia até de graça!</label>
+		
+		<h1>Usa qual IDE?</h1>
+		<input type="radio" name="ide"><label>Textmate</label>
+		<input type="radio" name="ide"><label>Sublime</label>
+		<input type="radio" name="ide"><label>Vim</label>
+		<input type="radio" name="ide"><label>Outra</label>
+
+		<h1>Qual máquina?</h1>
+		<input type="radio" name="maquina"><label>Windows</label>
+		<input type="radio" name="maquina"><label>Linux</label>
+		<input type="radio" name="maquina"><label>Mac</label>
+
+		<h1>Qual browser?</h1>
+		<input type="radio" name="browser"><label>Firefox</label>
+		<input type="radio" name="browser"><label>Chrome</label>
+		<input type="radio" name="browser"><label>Internet Explorer</label>
+		<input type="radio" name="browser"><label>Safari</label>
+		<input type="radio" name="browser"><label>Outro</label>
+
+		<h1>Velocidade da conexão com a internet</h1>
+		<input type="text" style="width:700px">
+
+		<h1>Inglês</h1>
+		<input type="checkbox"><label>Leitura técnica</label><br>
+		<input type="checkbox"><label>Escrita: Consigo perguntar e responder em fóruns</label><br>
+		<input type="checkbox"><label>Conversação fluente</label><br>
+		<input type="checkbox"><label>Entendo vídeos de cursos e palestras sem legenda</label><br>
+		<input type="checkbox"><label>Google Translate Master</label><br>
+		<input type="checkbox"><label>The books is on the table</label>
+
+		<h1>Links onde aprendeu sobre Frontend e Ruby on Rails</h1>
+		<textarea rows="10" cols="98"></textarea>
+
+		<h1>Links de sites/apps que criou com o que aprendeu nos links acima</h1>
+		<textarea rows="10" cols="98"></textarea>
+
+		<h1>Quando o bicho pega, onde procura ajuda? Mande os links.</h1>
+		<textarea rows="10" cols="98"></textarea>
+
+		<h1>Qual o seu Facebook?</h1>
+		<input type="text" style="width:700px">
+
+		<h1>Qual o seu Twitter?</h1>
+		<input type="text" style="width:700px">
+
+		<h1>Qual o seu Linkedin?</h1>
+		<input type="text" style="width:700px">
+
+		
+		<h1>Link do último livro que leu</h1>
+		<input type="text" style="width:700px">
+
+		<h1>Link da última série ou filme que assistiu</h1>
+		<input type="text" style="width:700px">
+
+	</fieldset>
+
+	<fieldset>
+    
+    <legend>Mini-teste de Conhecimentos</legend>
+
+		<h1>Ruby <input type="text" style="width:200px" placeholder="Qual o seu conhecimento? de 0 a 10"></h1>
+		<input type="checkbox"><label>Matz</label>
+		<input type="checkbox"><label>Compilada</label>
+		<input type="checkbox"><label>Framework</label>
+		<input type="checkbox"><label>RVM</label>
+		<input type="checkbox"><label>obj = new Object()</label>
+
+		<h1>Ruby on Rails <input type="text" style="width:200px" placeholder="Qual o seu conhecimento? de 0 a 10"></h1>
+		<input type="checkbox"><label>MVC</label>
+		<input type="checkbox"><label>linguagem de programação</label>
+		<input type="checkbox"><label>DHH</label>
+		<input type="checkbox"><label>rake database:migrate</label>
+		<input type="checkbox"><label>JVM</label>
+
+		<h1>Postgres <input type="text" style="width:200px" placeholder="Qual o seu conhecimento? de 0 a 10"></h1>
+		<input type="checkbox"><label>Heroku</label>
+		<input type="checkbox"><label>Banco de Dados</label>
+		<input type="checkbox"><label>Framework</label>
+		<input type="checkbox"><label>sql</label>
+		<input type="checkbox"><label>psql</label>
+
+		<h1>HTML5 <input type="text" style="width:200px" placeholder="Qual o seu conhecimento? de 0 a 10"></h1>
+		<input type="checkbox"><label>&lt;video&gt;</label>
+		<input type="checkbox"><label>Microsoft</label>
+		<input type="checkbox"><label>&lt;podcast&gt;</label>
+		<input type="checkbox"><label>&lt;article&gt;</label>
+		<input type="checkbox"><label>&lt;marquee&gt;</label>
+
+		<h1>CSS3 <input type="text" style="width:200px" placeholder="Qual o seu conhecimento? de 0 a 10"></h1>
+		<input type="checkbox"><label>shadow</label>
+		<input type="checkbox"><label>Sass</label>
+		<input type="checkbox"><label>#60z3d0</label>
+		<input type="checkbox"><label>border-rounded:10px;</label>
+		<input type="checkbox"><label>Modernizr</label>
+
+		<h1>Javascript <input type="text" style="width:200px" placeholder="Qual o seu conhecimento? de 0 a 10"></h1>
+		<input type="checkbox"><label>Backbone</label>
+		<input type="checkbox"><label>Java</label>
+		<input type="checkbox"><label>var obj = new Object();</label>
+		<input type="checkbox"><label>Firebug</label>
+		<input type="checkbox"><label>v8</label>
+
+		<h1>Qual controle de versão já usou?</h1>
+		<input type="checkbox"><label>Source Safe</label>
+		<input type="checkbox"><label>Mercurial</label>
+		<input type="checkbox"><label>Git</label>
+		<input type="checkbox"><label>CVS</label>
+		<input type="checkbox"><label>SVN</label>
+		<input type="checkbox"><label>Renomeio a pasta com _OLD</label>
+
+	</fieldset>
+
+	<fieldset>
+    <legend>Entrega</legend>
+
+		<h1>Checklist - Só pra te ajudar :)</h1>
+		<input type="checkbox"><label>Fork</label><br>
+		<input type="checkbox"><label>Novo branch</label><br>
+		<input type="checkbox"><label>Respostas hardcode</label><br>
+		<input type="checkbox"><label>Personalização com CSS e Javascript</label><br>
+		<input type="checkbox"><label>Pull request</label><br>
+		<input type="checkbox"><label>Publicação do formulário em algum servidor</label><br>
+
+		<h1>Link de onde você publicou o questionário</h1>
+		<input type="text" style="width:700px">
+
+	</fieldset>
+
+
+
+</body>
+</html>
