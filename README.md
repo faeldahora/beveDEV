@@ -13,9 +13,13 @@ Estamos a procura de um estagiário com conhecimentos em Frontend e Ruby on Rail
 # Descrição da vaga:
 
 **Cargo:** Estagiário Frontend+Rails 
+
 **Nível:** Beginner (Vulgo estagiário esperto)
+
 **Local:** No aconchego do seu lar, bem longe do trânsito.
+
 **Carga horária:** De acordo com a legislação vigente
+
 ## Benefícios:
 - Bolsa-estágio: À combinar
 - Vale-transporte: Não tem, já que você vai trabalhar em casa ...
